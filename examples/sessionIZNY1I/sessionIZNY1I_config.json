@@ -1,0 +1,26 @@
+{
+    "session": "IZNY1I",
+    "date": "2021-05-02",
+    "pdb": {
+        "provided": true,
+        "source": "3K8Y.pdb"
+    },
+    "modifications": {
+        "model": 1,
+        "assembly": null,
+        "chains": [
+            "A"
+        ],
+        "strip": []
+    },
+    "source_residues": [
+        [
+            "528",
+            "A"
+        ]
+    ],
+    "methods": {
+        "bond_to_bond_propensity": true,
+        "markov_transient": false
+    }
+}
