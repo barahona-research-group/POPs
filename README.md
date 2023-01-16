@@ -1,6 +1,10 @@
 # POPs: Propensity Optimised Paths
 
-This is the official repository of POPs, a method to compute and score paths of optimised propensity that link the orthosteric site with the identified allosteric sites, and identifies crucial residues that contribute to those paths based on results from [bond-to-bond propensity analysis](https://doi.org/10.1038/ncomms12477).
+This is the official repository of <b> Propensity Optimised Paths (POPs) </b>, a method to compute and score paths of optimised propensity that link the orthosteric site with the identified allosteric sites, and identifies crucial residues that contribute to those paths. The method was presented in the paper:
+
+Wu, N., Yaliraki, S. N., & Barahona, M. (2022). Prediction of Protein Allosteric Signalling Pathways and Functional Residues Through Paths of Optimised Propensity. Journal of Molecular Biology, 167749. https://doi.org/10.1016/j.jmb.2022.167749
+
+The calculation of POPs is based on results from <b>bond-to-bond propensity analysis</b>, which was introduced in [Amor <i>et al.</i> Nature Communications, 7, 1–13 (2016)](https://doi.org/10.1038/ncomms12477) and made available through the easy-to-use webserver [ProteinLens](https://proteinlens.io/webserver/).
 
 <p align = 'center'>
   <img src = 'doc/graphical_abstract.png' width = '800' />
@@ -26,15 +30,18 @@ After completing bond-to-bond propensity analysis, [POP.py](https://github.com/n
 
 ## Cite
 
-Please cite our paper :
+If you use this code in your own work, please cite our paper :
 
-Wu, N., Yaliraki, S. N., & Barahona, M. (2022). Prediction of Protein Allosteric Signalling Pathways and Functional Residues Through Paths of Optimised Propensity. Journal of Molecular Biology, 167749. https://doi.org/https://doi.org/10.1016/j.jmb.2022.167749
+Wu, N., Yaliraki, S. N., & Barahona, M. (2022). Prediction of Protein Allosteric Signalling Pathways and Functional Residues Through Paths of Optimised Propensity. Journal of Molecular Biology, 167749. https://doi.org/10.1016/j.jmb.2022.167749
 
-Originally appeared as a arXiv preprint:
-arXiv:2207.07202; doi: https://doi.org/10.48550/arXiv.2207.07202
+<!-- Originally appeared as a arXiv preprint:
+arXiv:2207.07202; doi: https://doi.org/10.48550/arXiv.2207.07202 -->
 
 and the paper on bond-to-bond propensity analysis:
 
-Amor, B. R. C., Schaub, M. T., Yaliraki, S. N., & Barahona, M. (2016). Prediction of allosteric sites and mediating interactions through bond-to-bond propensities. Nature Communications, 7, 1–13. https://doi.org/10.1038/ncomms12477
+Amor, B. R. C., Schaub, M. T., Yaliraki, S. N., & Barahona, M. (2016). Prediction of allosteric sites and mediating interactions through bond-to-bond propensities. Nature Communications, 7, 1–13. https://doi.org/10.1038/ncomms12477.
 
-if you use this code in your own work.
+The paper that introduced the [ProteinLens](https://proteinlens.io/webserver/) webserver is:
+
+Mersmann, S. F., Strömich, L., Song, F. J., Wu, N., Vianello, F., Barahona, M., & Yaliraki, S. N. (2021). ProteinLens: a web-based application for the analysis of allosteric signalling on atomistic graphs of biomolecules. Nucleic Acids Research, 49(W1), W551–W558. https://doi.org/10.1093/nar/gkab350
+
